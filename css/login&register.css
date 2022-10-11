@@ -1,0 +1,77 @@
+header {
+  height: fit-content;
+  padding-bottom: 60px;
+}
+
+.formm .container {
+  display: flex;
+  padding: 0px;
+  box-shadow: 0px -2px 12px rgb(228, 228, 228);
+}
+section .container .half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem;
+}
+
+.formm .new_to_our {
+  width: 50%;
+  background-color: #384aeb;
+  color: #fff;
+}
+.formm .new_to_our button {
+  width: 60%;
+  margin: 0px auto;
+  font-weight: 600;
+}
+.formm form {
+  padding: 7rem 6rem !important;
+  width: 50%;
+}
+.formm form input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #f1f6f7;
+  padding: 0.8125rem;
+  outline: none;
+  margin-bottom: 6px;
+}
+.formm form input[type="text"],
+input[type="password"],
+input[type="email"]::placeholder {
+  color: #888;
+}
+.formm form input[type="text"]:nth-of-type(1) {
+  margin-top: 4rem;
+}
+form .check {
+  padding: 25px 0px;
+  display: flex;
+  gap: 10px;
+  color: #888;
+}
+form a {
+  padding: 20px;
+  color: #888;
+  text-decoration: none;
+}
+.formm .new_to_our p {
+  padding: 3rem 0px;
+  color: #fff;
+}
+.formm form label {
+  font-size: 15px;
+  margin: 6px 0px;
+}
+.trans--btn {
+  font-weight: 600;
+  background-color: transparent;
+  color: #fff;
+}
+.shop_now {
+  font-weight: 600;
+}

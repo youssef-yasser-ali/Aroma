@@ -1,0 +1,118 @@
+header {
+  height: fit-content;
+  padding-bottom: 60px;
+}
+
+/* Start Card Section */
+.cart__section .container > div {
+  padding: 30px 0px;
+  border-bottom: solid 1px rgb(228, 228, 228);
+}
+.cart__section .container > div.cart {
+  display: grid;
+  /* text-align: center; */
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 2.5fr 1fr 1fr 1fr;
+  /* gap: 60px; */
+}
+.cart__section .container > div:first-of-type {
+  padding: 1rem 0px;
+}
+.cart__section .container .cart .catpro {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cart__section .container input[type="number"] {
+  width: 33%;
+  padding: 6px;
+  border: none;
+  outline: none;
+  border: solid 1px rgb(200, 200, 200);
+  border-radius: 1px;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+  padding: 12px 0px;
+}
+
+.apply-middel {
+  display: flex;
+  justify-content: space-between;
+}
+.apply-middel input {
+  padding: 10px;
+  outline: none;
+  width: 200px;
+  border-radius: 20px;
+  border: solid 1px rgb(239, 239, 239);
+  position: relative;
+}
+.apply-middel::after {
+  content: "";
+}
+.apply-middel input::placeholder {
+  color: rgb(200, 200, 200);
+}
+.titles {
+  display: flex;
+  justify-content: right;
+  border: none;
+}
+.title-shopping {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.title-shopping div.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#shipping {
+  border: none;
+  padding: 0px;
+  padding-top: 20px;
+}
+
+#procss {
+  border: none;
+}
+
+.input_shipping {
+  color: #888;
+  gap: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+.claculate_shipping {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 28%;
+}
+.claculate_shipping select {
+  width: 100%;
+  border-radius: 3px;
+  color: #888;
+  border: none;
+  background-color: rgb(239, 239, 239);
+  padding: 10px;
+}
+.claculate_shipping button {
+  background-color: rgb(239, 239, 239);
+
+  width: 50%;
+}
+
+#procss {
+  display: flex;
+  justify-content: flex-end;
+}
+#procss button:first-child {
+  margin-right: 6px;
+  background-color: rgb(239, 239, 239);
+}

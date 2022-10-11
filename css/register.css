@@ -1,0 +1,13 @@
+.shop_now {
+  border-radius: 0px;
+  background-color: rgb(198, 0, 0);
+}
+.formm form {
+  padding: 6rem !important;
+  width: 50%;
+}
+.formm .new_to_our button {
+  width: 40%;
+  margin: 0px auto;
+  font-weight: 600;
+}
